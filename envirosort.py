@@ -7,6 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1BIJmAkW_Eh3Q81eFOLuAFMQU9OF4BVty
 """
 
+# ----------------------------------------CELL 1 Start---------------------------------------------------------
 import os
 import shutil
 os.chdir('/root/')
@@ -18,6 +19,10 @@ os.listdir('/content/')
 !unzip waste-classification-data
 os.remove('waste-classification-data.zip')
 shutil.rmtree('/content/dataset')
+# ----------------------------------------CELL 1 End---------------------------------------------------------
+
+
+# ----------------------------------------CELL 2 Start---------------------------------------------------------
 
 import os
 import pandas as pd
@@ -123,3 +128,6 @@ model.fit(
 test_loss, test_accuracy = model.evaluate(test_generator, steps=validation_steps)
 print("Test Loss:", test_loss)
 print("Test Accuracy:", test_accuracy)
+
+
+# ----------------------------------------CELL 2 End---------------------------------------------------------
