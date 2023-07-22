@@ -17,7 +17,7 @@ EnviroSort addresses waste management challenges by automating the waste sorting
 ## How we built it
 Building EnviroSort was a multi-faceted endeavor that involved the innovative use of cutting-edge technologies and the collaboration of a skilled team. Here's an overview of the key components and techniques used:
 
-- **Data Collection and Analysis**: We looked through Kaggle for an appropriate dataset until we found one here: [link](https://www.kaggle.com/datasets/techsash/waste-classification-data)
+- **Data Collection and Analysis**: We looked through Kaggle for an appropriate dataset until we found one [here](https://www.kaggle.com/datasets/techsash/waste-classification-data):
 
 - **Convolutional Neural Networks (CNN)**: CNNs are powerful deep learning models for image classification. We employed a pre-trained VGG16 model as the backbone of our waste classification system, leveraging its ability to extract meaningful features from images.
 
